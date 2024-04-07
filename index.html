@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <!-- displays site properly based on user's device -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <!--author and description-->
+    <meta name="author" content="6xg0d">
+    <meta name="description" content="Newbie challenge from Frontend Mentor">
+    <!--favicon-->
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+    <!--font-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+    <!--linking stylesheet-->
+    <link rel="stylesheet" href="styles.css">
+    <title>Frontend Mentor | Results summary component</title>
+  </head>
+  <body>
+    <main class="card">
+      <div class="card-header">
+        <p>Your Result</p>
+        <div class="score">
+          <h1>76</h1>
+          <p>of 100</p>
+        </div>
+        <span>Great</span>
+        <p>You scored higher than 65% of the people who have taken these tests.</p>
+      </div>
+      <div class="card-body">
+        <h2 id="summary">Summary</h2>
+        <div class="results-container">
+          <div class="results reaction-section">
+            <div class="icon-topic-section">
+              <img src="assets/images/icon-reaction.svg" alt="thunder-icon">
+              <p id="reaction">Reaction</p>
+            </div>
+            <div class="score-section">
+              <p><span>80</span> / 100</p>
+            </div>
+          </div>
+          <div class="results memory-section">
+            <div class="icon-topic-section">
+              <img src="assets/images/icon-memory.svg" alt="brain-icon">
+              <p id="memory">Memory</p>
+            </div>
+            <div class="score-section">
+              <p><span>92</span> / 100</p>
+            </div>
+          </div>
+          <div class="results verbal-section">
+            <div class="icon-topic-section">
+              <img src="assets/images/icon-verbal.svg" alt="bubble-chat-icon">
+              <p id="verbal">Verbal</p>
+            </div>
+            <div class="score-section">
+              <p><span>61</span> / 100</p>
+            </div>
+          </div>
+          <div class="results visual-section">
+            <div class="icon-topic-section">
+              <img src="assets/images/icon-visual.svg" alt="eye-icon">
+              <p id="visual">Visual</p>
+            </div>
+            <div class="score-section">
+              <p><span>72</span> / 100</p>
+            </div>
+          </div>
+        </div>   
+        <a href="#">Continue</a>
+      </div>      
+    </main>
+  </body>
+</html>
